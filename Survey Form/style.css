@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #1b1b32cc;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    text-align: start;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input {
+    width: 97%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.inline{
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+textarea{
+    width: 96%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #37af65;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
